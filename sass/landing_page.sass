@@ -1,4 +1,6 @@
 @import ./_variable
+@import ./magic_cube
+
 $main_color: #EF2B53
 $band_color: #D7348D
 $band1_color: #9C348D
@@ -9,10 +11,14 @@ $height__hand_right_top: $basic_l*3
 $height__hand_left: $basic_l*3
 $height__hand_right_down: $basic_l*6
 $height__magic_cube: $basic_l*7
+
 *
   font-family: 'Noto Sans TC', sans-serif
   box-sizing: border-box
   // border: solid 1px white
+// #magic_cube > svg
+//   transform-origin: 65% 60%
+//   animation: finger_m_15deg 9s infinite
 body,html
   margin: 0px
   padding: 0px
