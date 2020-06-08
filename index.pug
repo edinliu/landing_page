@@ -1,0 +1,19 @@
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title landing page
+    link(rel="stylesheet", href="css/landing_page.css")
+    link(href="https://fonts.googleapis.com/css?family=Noto+Sans+TC", rel="stylesheet")
+  body
+    .bg_block
+      include images/bg_block.svg
+    .band
+      include images/band.svg
+      .content_box      
+        h1 Welcome to ImaginaryFriendsLiteratureClub
+        p 它總是把我們帶回到遊戲的起點，而且從不枯燥。
+    iframe(src="hand_bottom.html", frameborder="0" ,id="hand_right_down")
+    iframe(src="hand_left.html", frameborder="0" ,id="hand_left")
+    iframe(src="hand_top.html", frameborder="0" ,id="hand_right_top")
+    iframe(src="magic_cube.html", frameborder="0" id="magic_cube")

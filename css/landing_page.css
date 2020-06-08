@@ -1,0 +1,93 @@
+* {
+  font-family: 'Noto Sans TC', sans-serif;
+  box-sizing: border-box; }
+
+body, html {
+  margin: 0px;
+  padding: 0px;
+  background-color: #EF2B53;
+  overflow: hidden; }
+
+body div {
+  position: absolute; }
+
+iframe {
+  display: block;
+  position: absolute; }
+
+#hand_right_top {
+  width: 45vmin;
+  height: 30vmin;
+  left: 50vmin; }
+
+#hand_left {
+  width: 45vmin;
+  height: 30vmin;
+  top: 30vmin;
+  left: 0px; }
+
+#hand_right_down {
+  width: 90vmin;
+  height: 60vmin;
+  bottom: 0px;
+  left: 50vmin;
+  z-index: 1; }
+
+#magic_cube {
+  width: 70vmin;
+  height: 70vmin;
+  top: 20vmin;
+  left: 20vmin; }
+
+.band {
+  top: 30vmin;
+  right: 0px;
+  width: 55%;
+  min-width: 320px;
+  height: 10vmin;
+  background-color: #EE2A9B; }
+  @media all and (min-width: 400px) and (max-width: 768px) {
+    .band {
+      top: 80vmin;
+      left: 0px;
+      right: auto;
+      width: 80vmin;
+      height: 10vmin; } }
+  @media all and (max-width: 400px) {
+    .band {
+      top: 80vmin;
+      bottom: 10vmin;
+      right: auto;
+      left: 0px;
+      width: 100%;
+      padding: 5px;
+      height: 10vmin; }
+      .band svg {
+        opacity: 0; } }
+  .band svg {
+    height: 100%;
+    left: 0px; }
+  .band .content_box {
+    z-index: 2;
+    position: absolute;
+    top: 5vmin;
+    right: 0px; }
+    @media all and (max-width: 400px) {
+      .band .content_box {
+        top: 0px;
+        width: 100%;
+        padding-left: 10px; } }
+    .band .content_box h1, .band .content_box p {
+      color: white;
+      text-align: center; }
+      @media all and (max-width: 400px) {
+        .band .content_box h1, .band .content_box p {
+          text-align: left; } }
+    .band .content_box h1 {
+      font-size: 12px; }
+    .band .content_box p {
+      font-size: 15px; }
+
+.bg_block {
+  width: 120vmin;
+  top: 50vmin; }

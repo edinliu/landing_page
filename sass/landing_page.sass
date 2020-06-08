@@ -1,0 +1,94 @@
+@import ./_variable
+$main_color: #EF2B53
+$band_color: #D7348D
+$band1_color: #9C348D
+$eye_care: #333
+//size
+$basic_l: 10vmin
+$height__hand_right_top: $basic_l*3
+$height__hand_left: $basic_l*3
+$height__hand_right_down: $basic_l*6
+$height__magic_cube: $basic_l*7
+*
+  font-family: 'Noto Sans TC', sans-serif
+  box-sizing: border-box
+  // border: solid 1px white
+body,html
+  margin: 0px
+  padding: 0px
+  background-color: $main_color
+  overflow: hidden
+body div
+  position: absolute
+iframe
+  // border: solid 1px red
+  display: block
+  position: absolute
+#hand_right_top
+  width: $height__hand_right_top*1.5
+  height: $height__hand_right_top
+  left: 50vmin  
+#hand_left
+  width: $height__hand_left*1.5
+  height: $height__hand_left
+  top: 30vmin
+  left: 0px
+#hand_right_down
+  width: $height__hand_right_down*1.5
+  height: $height__hand_right_down
+  bottom: 0px
+  left: 50vmin
+  z-index: 1
+#magic_cube
+  width: $height__magic_cube
+  height: $height__magic_cube
+  top: $basic_l*2
+  left: $basic_l*2
+.band
+  top: $basic_l*3
+  right: 0px
+  width: 55%
+  min-width: 320px
+  height: $basic_l
+  background-color: #EE2A9B
+  @media all and ( min-width: $break_small) and ( max-width: $break_medium)
+    top: $basic_l*8
+    left: 0px
+    right: auto
+    width: $basic_l*8
+    height: $basic_l
+  @media all and ( max-width: $break_small)
+    top: $basic_l*8
+    bottom: $basic_l
+    right: auto
+    left: 0px
+    width: 100%
+    padding: 5px
+    height: $basic_l
+    // background-color: unset
+    svg
+      opacity: 0
+  svg
+    height: 100%
+    left: 0px
+  .content_box
+    z-index: 2
+    position: absolute
+    top: $basic_l*0.5
+    right: 0px
+    @media all and ( max-width: 400px)
+      top: 0px
+      width: 100%
+      padding-left: 10px
+    h1,p
+      color: white
+      text-align: center
+      @media all and ( max-width: 400px)
+        text-align: left
+    h1 
+      font-size: 12px
+    p
+      font-size: 15px
+.bg_block
+  width: $basic_l*12
+  top: $basic_l*5
