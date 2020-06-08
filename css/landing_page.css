@@ -11,25 +11,26 @@ body, html {
 body div {
   position: absolute; }
 
-iframe {
+img, iframe {
   display: block;
   position: absolute; }
 
 #hand_right_top {
   width: 45vmin;
   height: 30vmin;
-  left: 50vmin; }
+  left: 50vmin;
+  top: -40px; }
 
 #hand_left {
   width: 45vmin;
   height: 30vmin;
   top: 30vmin;
-  left: 0px; }
+  left: -30px; }
 
 #hand_right_down {
   width: 90vmin;
   height: 60vmin;
-  bottom: 0px;
+  bottom: -10px;
   left: 50vmin;
   z-index: 1; }
 
