@@ -3,17 +3,13 @@ svg {
   bottom: 0px; }
 
 [data-name="finger4"] {
-  transform-origin: 35% 60%;
-  animation: finger_m_10deg 1.5s infinite; }
+  transform-origin: 35% 60%; }
 
 [data-name="finger3"] {
-  transform-origin: 70% 80%;
-  animation: finger_m_10deg 3s infinite; }
+  transform-origin: 70% 80%; }
 
 [data-name="finger2"] {
-  transform-origin: 60% 70%;
-  animation: finger10deg 1s infinite; }
+  transform-origin: 60% 70%; }
 
 [data-name="finger1"] {
-  transform-origin: 70% 75%;
-  animation: finger_m_10deg 2s infinite; }
+  transform-origin: 70% 75%; }
